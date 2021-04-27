@@ -1,6 +1,6 @@
 {
-    "name": "dmyd/exercicio",
-    "description": "exercicio ydigital",
+    "name": "dmyd/davidmendesydigital",
+    "description": "David Mendes YDigital",
     "type": "project",
     "authors": [
         {
@@ -11,11 +11,17 @@
     "repositories": [
         {
             "name" : "YDSoapService", 
-            "type" : "git",
+            "type" : "vcs",
             "url" : "https://github.com/djcmendes/YDSoapService.git"
         }   
     ],
     "require": {
-
+        "php": ">=7.0",
+        "djcmendes/ydsoapservice": "dev-main"
+    },
+    "autoload":{
+        "psr-4":{
+            "YDSoapService\\":"src/"
+        }
     }
 }

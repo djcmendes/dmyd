@@ -4,15 +4,49 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "71821163d322c9f0243206d1909ae056",
-    "packages": [],
+    "content-hash": "baee96cb784c20dc5ff4eddcdd233088",
+    "packages": [
+        {
+            "name": "djcmendes/ydsoapservice",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/djcmendes/YDSoapService.git",
+                "reference": "9513d81843cd728998cd377ca2c7f7c7e168c478"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/djcmendes/YDSoapService/zipball/9513d81843cd728998cd377ca2c7f7c7e168c478",
+                "reference": "9513d81843cd728998cd377ca2c7f7c7e168c478",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "authors": [
+                {
+                    "name": "David Mendes",
+                    "email": "djcmendes@gmail.com"
+                }
+            ],
+            "description": "Soap Service",
+            "support": {
+                "source": "https://github.com/djcmendes/YDSoapService/tree/main",
+                "issues": "https://github.com/djcmendes/YDSoapService/issues"
+            },
+            "time": "2021-04-27T17:19:02+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "djcmendes/ydsoapservice": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=7.0"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"
 }
