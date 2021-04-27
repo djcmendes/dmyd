@@ -1,0 +1,21 @@
+{
+    "name": "dmyd/exercicio",
+    "description": "exercicio ydigital",
+    "type": "project",
+    "authors": [
+        {
+            "name": "David Mendes",
+            "email": "djcmendes@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "name" : "YDSoapService", 
+            "type" : "git",
+            "url" : "https://github.com/djcmendes/YDSoapService.git"
+        }   
+    ],
+    "require": {
+
+    }
+}
